@@ -53,17 +53,20 @@ while True:
             print("\nRock smashes scissors. YOU LOSE!")
             loses += 1
 
-    play_again = input("\nDo you want to play again? (YES/NO): ").upper()
-
-    if play_again != "YES":
-        print("\nOkay, bye!")
-        print("\nRounds played:", rounds)
-        print("Wins:", wins)
-        print("Loses:", loses)
-        print("Ties:", ties)
+    play_again = ""
+    while play_again != "NO" and play_again !="YES":
+        play_again = input("\nDo you want to play again? (YES/NO): ").upper()
+        if play_again == "NO":
+            print("\nOkay, bye!")
+            print("\nRounds played:", rounds)
+            print("Wins:", wins)
+            print("Loses:", loses)
+            print("Ties:", ties)
+            break
+        elif play_again == "YES":
+            continue
+    if play_again == "NO":
         break
-    elif play_again == "YES":
-        rounds = rounds + 1
-        print("\nNew round. Round: ", rounds)
 
-
+    rounds = rounds + 1
+    print("\nRound:", rounds)
