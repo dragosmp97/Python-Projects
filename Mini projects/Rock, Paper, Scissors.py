@@ -54,7 +54,7 @@ while True:
             loses += 1
 
     play_again = ""
-    while play_again != "NO" and play_again !="YES":
+    while play_again != "NO" and play_again != "YES":
         play_again = input("\nDo you want to play again? (YES/NO): ").upper()
         if play_again == "NO":
             print("\nOkay, bye!")
