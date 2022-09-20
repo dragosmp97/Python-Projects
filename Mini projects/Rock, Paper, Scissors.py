@@ -7,7 +7,7 @@ while True:
     player = None
 
     while player not in choices:
-        player = input("Rock, paper or scissors?: ").upper()
+        player = input("\nRock, paper or scissors?: ").upper()
 
     if player == computer:
         print("\nYou chose: ", player)
