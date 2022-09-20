@@ -1,2 +1,2 @@
 # Python-Projects
-Mini projects in Python
+Mini games in Python
