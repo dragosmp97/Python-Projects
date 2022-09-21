@@ -70,11 +70,13 @@ questions = {
     "What year was Python created?: ":"A",
     "Who created Python?: ":"B",
     "The name of python programming language is a tribute to which comedy group?: ":"C",
+    "What is the capital of Romania?: ":"D"
 }
 
 options = [["\nA. 1991", "B. 2006", "C. 2008", "D. 1997"],
            ["\nA. Bill Gates", "B. Guido van Rossum", "C. Bjarne Stroustrup", "D. Stephen Hawking"],
-           ["\nA. Snake Island", "B. Lazy Python", "C. Monty Python", "D. Smosh"]]
+           ["\nA. Snake Island", "B. Lazy Python", "C. Monty Python", "D. Smosh"],
+           ["\nA. Budapest", "B. Sofia", "C. Cluj", "D. Bucharest"]]
 
 new_game()
 
